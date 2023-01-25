@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2146c7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Muli", sans-serif;
+  color: whitesmoke;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #0023c1;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+  border-radius: 6px;
+  box-shadow: 1px 1px 20px 2px rgba(128, 128, 128, 0.268);
+  max-width: 290px;
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#length {
+  width: 40px;
+}
+
+.password-div {
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.btn-copy {
+  background-color: #2146c7;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+i {
+  color: whitesmoke;
+}
+
+.btn-generate-pass {
+  background-color: #2163c7;
+  color: whitesmoke;
+  border: none;
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.the-password {
+  padding-left: 9px;
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  width: 90%;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  border: green solid 2px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/b8d3bca95d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="parent">
+      <h1>Password Generator</h1>
+
+      <div class="child password-div">
+        <input class="the-password"></>
+        <button class="btn-copy">
+          <i class="fa-regular fa-clipboard"></i>
+        </button>
+      </div>
+
+      <div class="child">
+        <label for="length">Password Length</label>
+        <input type="number" name="" id="length"  min="4" max="20"/>
+      </div>
+
+      <div class="child">
+        <label for="uppercase">Include uppercase letters</label>
+        <input type="checkbox" name="" id="uppercase"  checked />
+      </div>
+      <div class="child">
+        <label for="lowercase">Include lowercase letters</label>
+        <input type="checkbox" name="" id="lowercase"  checked />
+      </div>
+
+      <div class="child">
+        <label for="numbers">Include numbers</label>
+        <input type="checkbox" name="" id="numbers"  checked />
+      </div>
+
+      <div class="child">
+        <label for="symbols">Include symbols</label>
+        <input type="checkbox" name="" id="symbols" checked />
+      </div>
+
+      <button class="btn-generate-pass">Generate Password</button>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
